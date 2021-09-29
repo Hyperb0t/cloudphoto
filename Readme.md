@@ -1,9 +1,9 @@
-#CloudPhoto
-##About
+# CloudPhoto
+## About
 The app was made as homework for cloud technologies course.
 
 It can upload and download photos (jpg ,jpeg) to yandex cloud s3 object storage. Albums are supported.
-##Usage
+## Usage
 Upload photos from folder `path` to album `album`
 ```
 java -jar cloudphoto-0.1-jar-with-dependencies.jar upload -p path -a album
@@ -20,7 +20,7 @@ List all photos in album `album`
 ```
 java -jar cloudphoto-0.1-jar-with-dependencies.jar list -a album
 ```
-##Building
+## Building
 Firstly, you need installed java 11 and maven on your system.
 
 To build, run this command inside project sources folder, where pom.xml is located.
